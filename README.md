@@ -144,8 +144,8 @@ Congratulations, again! You’ve created your first Django app and hooked it up 
 Create another directory called templates, this time inside personal_portfolio, and a file called base.html, inside the new directory:
 
 ```bash
-mkdir templates/
-touch templates/base.html
+mkdir personal_portfolio/templates/
+touch personal_portfolio/templates/base.html
 ```
 
 We create this additional templates directory to store HTML templates that will be used in every Django app in the project. As you saw previously, each Django project can consist of multiple apps that handle separated logic, and each app contains its own templates directory to store HTML templates related to the application.
